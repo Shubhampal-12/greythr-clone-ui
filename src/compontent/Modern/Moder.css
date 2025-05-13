@@ -1,0 +1,128 @@
+.moder-main{
+    margin: 0;
+    min-width: 0;
+  /* text-align: center; */
+  /* font-size: 19px;   */
+  margin-bottom: 45px; 
+  margin: 0px 36px 100px 40px;
+  /* letter-spacing: normal; */
+  color: #1c1b1f;
+}
+.phase1{
+    text-align: center;
+}
+.phase1 h1{
+    align-items: center;
+  font-size: 40px;
+  line-height: 45.6px;
+  letter-spacing: normal;
+  font-weight: 600;
+  color: #1c1b1f;
+  margin-bottom: 20px;
+}
+.phase1  h1 span{
+  font-size: 38px;
+  line-height: 45.6px;
+  letter-spacing: normal;
+  font-weight: 600;
+  color: #8900c4;
+}
+.phase1 span{
+  font-size: 15px;
+  line-height: 25px;
+  font-weight:400;
+  letter-spacing: normal;
+  color: #1c1b1f;
+   
+   
+}
+.phase2{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: auto;
+    min-width: 0;
+    margin: 18px 208px 25px 271px;
+    margin-top: 15px;
+}
+.phase2 .Box1{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* background-color: #EEFAF4; */
+    height: 17rem;
+    width: 25rem;
+}
+.image{
+    display: block;
+    margin:25px 8px 30px 20px;
+    background-color: #8900c4;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.File{
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 12px;
+}
+.phase2 h2{
+    font-size: 21.008px;
+    line-height: 24px;
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #1c1b1f;
+}
+.phase2 span{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 400;
+}
+.Text{
+    align-items: end;
+}
+.phase3{
+    margin: 0;
+     min-width: 0;
+     max-width:60.188rem;
+     margin: auto;
+     margin-top: 1.5rem;
+     box-sizing: border-box;
+}
+.three{
+margin: 0;
+min-width: 0;
+ border: none;
+ cursor: default;
+ background-color: aliceblue;
+ max-width: 100%;
+ position: relative;
+ border-radius: 20px;
+ padding: 1.5rem;
+ box-sizing: border-box;
+}
+.main-three h2{
+  font-size: 20px;
+  font-weight: 800;
+}
+.main-three span{
+    color: #49494c;
+    font-family: open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.phase4{
+    display: flex;
+     max-width:34rem;
+     margin: auto;
+     margin-top: 4.5rem;
+     box-sizing: border-box;
+     gap: 20px;
+}
+ 
