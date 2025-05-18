@@ -58,6 +58,15 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+@media screen and (max-width:600px) {
+    .Detail{
+        display: inline-grid;
+        align-items: center;
+        text-align: center;
+        margin-left: 1rem;
+        gap: 1rem;
+    }
+}
  
  
  

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Moder.css'
 import{FileSpreadsheet, FileClock,HandHelping,CalendarClock, Smartphone  } from 'lucide-react'
-import Button from '../all compontent/Button'
+import Button from '../all/Button'
 
 const Moder = () => {
   return (
@@ -19,7 +19,7 @@ const Moder = () => {
                     <div className="Text">
                         <h2>You don’t have an HRMS, and running HR ops on Sheets </h2>
                     </div>
-                    <div className="">
+                    <div className="text2">
                         <span> Use one single app for all HR and Payroll Processes, including workforce management, employee relations, leave and attendance</span>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Moder = () => {
                     <div className="Text">
                         <h2>Your payroll solution is unstable, requires hours of manual work </h2>
                     </div>
-                    <div className="">
+                    <div className="text2">
                         <span> Ensure faster and accurate checkouts. Implement complex policies. Automate hours of manual payroll processes and remove any manual error</span>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Moder = () => {
                     <div className="Text">
                         <h2> You’re still using old ways to capture and track leaves and attendance </h2>
                     </div>
-                    <div className="">
+                    <div className="text2">
                         <span>  150+ basic and advanced admin reports covering Leave and Attendance, Payroll, MIS, Claims, Welfare and State-level Policies</span>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ const Moder = () => {
                     <div className="Text">
                         <h2> Most HR and payroll tasks are manual, clerical, and take hours to complete </h2>
                     </div>
-                    <div className="">
+                    <div className="text2">
                         <span>  Give access to the best-in-category leave management solution for efficient leave management</span>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Moder = () => {
                             <Smartphone className='File' color='black'/>
                         </div>
                          <h2>Your employees need a self-serving portal (ESS), ON MOBILE!</h2>
-                        <div className="">
+                        <div className="text2">
                             <span>Use greytHR’s ‘mobile-first’ Employee Self Service Portal (ESS) enables common HR tasks for employees and managers. Access payslips, manage leaves,
                                  add expense claims and so much more. All on mobile</span>
                         </div>

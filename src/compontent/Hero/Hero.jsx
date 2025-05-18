@@ -1,11 +1,12 @@
 import React from 'react'
- 
  import Country from '../All  Image/Countries.png'
  import user from  '../All  Image/Users.jpg'
  import comp from   '../All  Image/Companies.png'
   import vide from  '../All  Image/Youtube.png'
 import './Hero.css'
-import Button from '../all compontent/Button';
+import '../../App.css'
+ import '../all/Button'
+ import Button from '../all/Media.css'
 // import ReactPlayer from 'react-player'
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
       <div className='main-hero'>
           <div className="hero-top">
              <div className='para'>
-                <h1><p>Welcome to the <span> greyt </span> Side .</p></h1>
+                <h1>Welcome to the <span> greyt </span> Side .</h1>
              </div>
             <span>
                 <p>The most trusted full-suite HRMS for your people operations</p>
@@ -47,7 +48,7 @@ const Hero = () => {
             </div>
              
           </div>
-          <div className="gap-10 mt-9 inline-flex"> 
+          <div className="gap-10 mt-9 inline-flex btn"> 
               <Button/>
               <Button/>
             </div>

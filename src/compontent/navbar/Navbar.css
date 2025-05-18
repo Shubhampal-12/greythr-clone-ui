@@ -10,15 +10,14 @@
 
 .navbar-container {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
-    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 0 2rem;
 }
 
 .navbar-logo img {
       height: 5rem;
+      cursor: pointer;
 } 
 
 .nav-menu {
@@ -63,4 +62,19 @@
 }
 .nav-right button:hover{
     background-color: #aa00ea;
+}
+
+@media (max-width:600px) {
+    .nav-left{
+        display: none;
+    }
+    .navbar-logo img {
+      height: 5rem; 
+      margin: 0px -3px 0px -40px;
+} 
+/* .navbar-container {
+    margin: 0px -20px 0px -30px;
+    padding: 1px 1rem;
+} */
+
 }

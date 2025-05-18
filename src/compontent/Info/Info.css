@@ -56,3 +56,18 @@
     gap: 30px;
     margin-top: 40px;
 }
+
+@media screen and (max-width:600px) {
+    .more-info{
+        display: inline-grid;
+    }
+    .info-right{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .info-btn{
+        margin-left: 22px;
+        display: inline-grid;
+        gap: unset;
+    }
+}

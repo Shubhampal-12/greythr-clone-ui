@@ -2,32 +2,43 @@
 .main-hero{
     align-items: center;
     text-align: center;
-    /* margin-top: 6rem; */
     margin: 68px 180px 104px 150px;
 }
 .hero-top{
     display: inline-block;
     align-items: center;
     text-align: center;
+    margin-top: 65px;
 }
-.para p{
-     font-size: 4rem;
-     font-weight: 800;
-     margin-bottom: 15px;
+.para{
+    text-align: center;
+}
+.para h1{
+    align-items: center;
+    font-size: 60px;
+    line-height: 45.6px;
+    letter-spacing: normal;
+    font-weight: 600;
+    margin: 0px 70px 60px 70px;
+    color: #1c1b1f;
+
 }
 .para span{
     color: #8900c4;
 }
   span p{
-    font-size: 23px;
+    font-size: 20px;
     line-height: 25px;
     font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
     letter-spacing: normal;
     color: #1c1b1f;
 }
 .main-box{
     margin: 20px;
-    display: flex;
+    display: inline-flex;
+    gap: 50px;
     align-items: center;
     justify-content: space-between;
 }
@@ -51,7 +62,6 @@
     background-color:#FFF8E6 ;
 }
 .main-buttom{
-     /* align-items: end; */
      position: relative;
      width: 3rem;
 }
@@ -59,12 +69,37 @@
     height: 41rem;
     display: inline-flex;
     border-radius: 40px;
-    /* border: 2px solid #8900c4; */
     width: 70rem;
-    /* top: 40px; */
     
 }
 .link{
     width: 70rem;
     height: 40rem;
+}
+
+@media (max-width:600px) {
+    .para p{
+     font-size: 4rem;
+     margin-bottom: 15px;
+}
+.para h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.vide{
+    height: 20rem;
+    width: 20rem;   
+}
+.main-hero{
+    margin: 10px;
+}
+.main-box{
+    display: inline-grid;
+    gap: 50px;
+}
+.btn{
+    display: inline-grid;
+    gap: unset;
+}
+
 }

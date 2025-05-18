@@ -1,7 +1,8 @@
 import React from 'react'
 import './Info.css'
+import '../../App.css'
 import info from '../All  Image/Image1.png'
-import Button from '../all compontent/Button'
+ import Button from '../all/Button'
 
 const Info = () => {
   return (

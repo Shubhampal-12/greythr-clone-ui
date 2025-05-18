@@ -1,11 +1,13 @@
 import React from 'react'
 import './Employees.css'
+import '../../App.css'
 import Person1 from '../All  Image/Person1.png'
 import Person2 from '../All  Image/Person2.png'
 import Person3 from '../All  Image/Person3.png'
 import Person4 from '../All  Image/Person4.png'
 import Person5 from '../All  Image/Person5.png'
 import Employ from '../All  Image/Emp-img.jpg'
+import {ChevronLeft , ChevronRight} from 'lucide-react'
  
 
 const Employees = () => {
@@ -17,6 +19,7 @@ const Employees = () => {
         </span>
         <div className="main-parson">
             <div className="parson-box">
+                <ChevronLeft  className=" hidden right-bar" size={40} color='black'/>
                 <div className="par1">
                     <img src={Person1} className='mt-4' alt="" />
                     <p>CIO</p>
@@ -41,6 +44,8 @@ const Employees = () => {
                     <img src={Person5} className='mt-4' alt="" />
                     <p>Employees</p>
                 </div>
+
+                <ChevronRight size={40} className='hidden left-bar' color='black'/>
                  
             </div>
         </div>
