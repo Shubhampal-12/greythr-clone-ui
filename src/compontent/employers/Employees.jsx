@@ -1,11 +1,11 @@
 import React from "react";
 import "./Employees.css";
 import "../../App.css";
-import Person1 from "../All  Image/Person1.png";
-import Person2 from "../All  Image/Person2.png";
-import Person3 from "../All  Image/Person3.png";
-import Person4 from "../All  Image/Person4.png";
-import Person5 from "../All  Image/Person5.png";
+const chro = "http://127.0.0.1:8000/getimages/CHRO";
+const cio = "http://127.0.0.1:8000/getimages/CIO";
+const employees = "http://127.0.0.1:8000/getimages/Employees";
+const mangagers = "http://127.0.0.1:8000/getimages/Managers";
+const payroll = "http://127.0.0.1:8000/getimages/Payroll_Admin";
 import Employ from "../All  Image/Emp-img.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -25,27 +25,27 @@ const Employees = () => {
         <div className="parson-box">
           <ChevronLeft className=" hidden right-bar" size={40} color="black" />
           <div className="par1">
-            <img src={Person1} className="mt-4" alt="" />
+            <img src={chro} className="mt-4" alt="img" />
             <p>CIO</p>
           </div>
 
           <div className="par1">
-            <img src={Person2} className="mt-4" alt="" />
+            <img src={cio} className="mt-4" alt="" />
             <p>CHRO</p>
           </div>
 
           <div className="par1">
-            <img src={Person3} className="mt-4" alt="" />
+            <img src={employees} className="mt-4" alt="" />
             <p>Payroll Admin</p>
           </div>
 
           <div className="par1">
-            <img src={Person4} className="mt-4" alt="" />
+            <img src={mangagers} className="mt-4" alt="" />
             <p>Managers</p>
           </div>
 
           <div className="par1">
-            <img src={Person5} className="mt-4" alt="" />
+            <img src={payroll} className="mt-4" alt="" />
             <p>Employees</p>
           </div>
 

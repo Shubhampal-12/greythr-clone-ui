@@ -8,47 +8,47 @@ const Footer = () => {
       <div className="Detail">
         <ul className="Product">
           <li className="footer-pro">Product</li>
-          <li className="footer-more">Performance Management</li>
-          <li className="footer-more">Attendance Management</li>
-          <li className="footer-more">Leave Management</li>
-          <li className="footer-more">Payroll Software</li>
-          <li className="footer-more">HR Software</li>
+         <li><a href="#" className="footer-more">Performance Management</a></li>
+         <li><a href="#" className="footer-more">Attendance Management </a> </li>
+         <li><a href="#" className="footer-more">Leave Management</a> </li>
+         <li><a href="#" className="footer-more">Payroll Software</a> </li>
+         <li><a href="#" className="footer-more">HR Software</a> </li>
         </ul>
 
         <ul className="Product">
-          <li className="footer-pro">HR & Payroll Administration</li>
-          <li className="footer-more"> What is Payroll?</li>
-          <li className="footer-more"> What is Statutory Compliance?</li>
-          <li className="footer-more">Guide to Leave Management </li>
-          <li className="footer-more"> Guide to Attendance Management</li>
-          <li className="footer-more"> Guide to Performance Management</li>
+          <li className="footer-pro">HR & Payroll Administration </li>
+         <li><a href="#" className="footer-more"> What is Payroll?</a> </li>
+         <li><a href="#" className="footer-more"> What is Statutory Compliance?</a> </li>
+         <li><a href="#" className="footer-more">Guide to Leave Management </a> </li>
+         <li><a href="#" className="footer-more"> Guide to Attendance Management</a> </li>
+         <li><a href="#" className="footer-more"> Guide to Performance Management</a> </li>
         </ul>
 
         <ul className="Product">
           <li className="footer-pro">Resources </li>
-          <li className="footer-more">Podcasts </li>
-          <li className="footer-more">Webinars </li>
-          <li className="footer-more"> Templates</li>
-          <li className="footer-more"> Guides</li>
-          <li className="footer-more">Blogs </li>
+         <li><a href="#" className="footer-more">Podcasts </a> </li>
+         <li><a href="#" className="footer-more">Webinars </a> </li>
+         <li><a href="#" className="footer-more"> Templates</a> </li>
+         <li><a href="#" className="footer-more"> Guides</a> </li>
+         <li><a href="#" className="footer-more">Blogs </a> </li>
         </ul>
 
         <ul className="Product">
-          <li className="footer-pro">Company</li>
-          <li className="footer-more">Guide to Attendance Management</li>
-          <li className="footer-more">Guide to Leave Management</li>
-          <li className="footer-more">greytHR Customers</li>
-          <li className="footer-more">Blogs</li>
-          <li className="footer-more">What is HRMS?</li>
+          <li className="footer-pro">Company </li>
+         <li><a href="#" className="footer-more">Guide to Attendance Management</a> </li>
+         <li><a href="#" className="footer-more">Guide to Leave Management</a> </li>
+         <li><a href="#" className="footer-more">greytHR Customers</a> </li>
+         <li><a href="#" className="footer-more">Blogs</a> </li>
+         <li><a href="#" className="footer-more">What is HRMS?</a> </li>
         </ul>
 
         <ul className="Product">
-          <li className="footer-pro">greytHR Customers</li>
-          <li className="footer-more">Videos</li>
-          <li className="footer-more">Login</li>
-          <li className="footer-more">Company</li>
-          <li className="footer-more">Templates</li>
-          <li className="footer-more">Guides</li>
+          <li className="footer-pro">greytHR Customers </li>
+         <li><a href="#" className="footer-more">Videos</a> </li>
+         <li><a href="#" className="footer-more">Login</a> </li>
+         <li><a href="#" className="footer-more">Company</a> </li>
+         <li><a href="#" className="footer-more">Templates</a> </li>
+          <li ><a href="" className="footer-more">Guides</a> </li>
         </ul>
       </div>
       <div className="Media">

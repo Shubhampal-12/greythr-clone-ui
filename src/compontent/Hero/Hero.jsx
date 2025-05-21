@@ -1,13 +1,12 @@
 import React from "react";
-import Country from "../All  Image/Countries.png";
-import user from "../All  Image/Users.jpg";
-import comp from "../All  Image/Companies.png";
-import vide from "../All  Image/Youtube.png";
+const imageUrl = "http://127.0.0.1:8000/getimages/Countries";
+const user = "http://127.0.0.1:8000/getimages/Users";
+const comp = "http://127.0.0.1:8000/getimages/Companies";
 import "./Hero.css";
 import "../../App.css";
 import "../all/Button";
 import Button from "../all/Button";
-// import ReactPlayer from 'react-player'
+import ReactPlayer from "react-player";
 
 const Hero = () => {
   return (
@@ -24,7 +23,7 @@ const Hero = () => {
           </span>
           <div className="main-box">
             <div className="box1">
-              <img src={Country} alt="Earth" />
+              <img src={imageUrl} alt="Earth" />
               <div className="">
                 <h3>32+</h3>
                 <p>Country</p>
@@ -49,13 +48,18 @@ const Hero = () => {
           </div>
         </div>
         <div className="gap-10 mt-9 inline-flex btn">
-          <Button />
-          <Button />
+          <Button name="start a greythr Free Account" />
+          <Button name="Talk to Us!" />
         </div>
         <div className="hero-bottom">
           <div className="vide">
-            {/* <ReactPlayer className='link' width="100" height="200" controls url='https://youtu.be/PMv1UcsF2no?si=NoGbtLIK34Ctac6x' /> */}
-            <img src={vide} alt="" />
+            <ReactPlayer
+              className="link"
+              width="100"
+              height="200"
+              controls
+              url="https://youtu.be/PMv1UcsF2no?si=NoGbtLIK34Ctac6x"
+            />
           </div>
         </div>
       </div>
