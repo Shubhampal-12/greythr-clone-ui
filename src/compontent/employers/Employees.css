@@ -57,6 +57,9 @@
     width: 50rem;
     gap: 20px;
 }
+.parson-box img{
+  height: 80px;
+}
 .par1{
     display: flex;
     flex-direction: column;

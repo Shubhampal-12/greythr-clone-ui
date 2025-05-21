@@ -6,6 +6,11 @@
  }
 .navbar {
     background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1020;
 }
 
 .navbar-container {
@@ -16,7 +21,7 @@
 }
 
 .navbar-logo img {
-      height: 5rem;
+      height: 3rem;
       cursor: pointer;
 } 
 
@@ -44,6 +49,7 @@
     font-size: 20px;
     width: 100%;
     font-weight: 400;
+    margin-left: 7rem;
 }
 .nav-right{
     display: flex;
@@ -69,8 +75,8 @@
         display: none;
     }
     .navbar-logo img {
-      height: 5rem; 
-      margin: 0px -3px 0px -40px;
+      height: 4rem; 
+      margin: 15px 0px 12px -15px;
 } 
 /* .navbar-container {
     margin: 0px -20px 0px -30px;

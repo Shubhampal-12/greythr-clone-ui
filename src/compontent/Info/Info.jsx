@@ -1,7 +1,7 @@
 import React from "react";
 import "./Info.css";
 import "../../App.css";
-import info from "../All  Image/Image1.png";
+const imageUrl = "http://127.0.0.1:8000/getimages/Footer";
 import Button from "../all/Button";
 
 const Info = () => {
@@ -10,7 +10,7 @@ const Info = () => {
       <div className="info">
         <div className="more-info">
           <div className="info-left">
-            <img src={info} alt="" />
+            <img src={imageUrl} alt="" />
           </div>
           <div className="info-right">
             <h2 className="info-tittle">
@@ -24,8 +24,8 @@ const Info = () => {
               category.
             </span>
             <div className="info-btn">
-              <Button />
-              <Button />
+              <Button name="Plans and pricing" />
+              <Button name="Discuss pricing" />
             </div>
           </div>
         </div>

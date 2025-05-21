@@ -119,8 +119,8 @@ const Moder = () => {
         </div>
 
         <div className="phase4">
-          <Button />
-          <Button />
+          <Button name="Explore HRMS" />
+          <Button name="Explore Payroll" />
         </div>
       </div>
     </div>
