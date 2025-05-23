@@ -54,19 +54,22 @@
 .nav-right{
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 40px;
 }
-.nav-right button{
+.nav-right .Link{
   margin: 20px;
-  height: 50px;
-  width: 100px;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  width: 105px;
   color: white;
   background-color: #310052;
   border: none;
   border-radius: 50px;
   border: 2px solid #310052;
 }
-.nav-right button:hover{
+.nav-right .Link:hover{
     background-color: #aa00ea;
 }
 
