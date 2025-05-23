@@ -42,6 +42,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.main-box img{
+    height: 60px;
+}
 .box1{
      display: flex;
      align-items: center;
@@ -61,20 +64,28 @@
 .box3{
     background-color:#FFF8E6 ;
 }
+.hero-bottom{
+    border: 1px solid;
+    /* height: 40rem; */
+    border-radius: 10px;
+    width: 70rem;
+    position: inherit;
+}
 .main-buttom{
      position: relative;
      width: 3rem;
 }
 .vide{
-    height: 41rem;
+    /* height: 59rem; */
     display: inline-flex;
-    border-radius: 40px;
-    width: 70rem;
+    border-radius: 39px;
+    width: 69rem;
     
 }
 .link{
     width: 70rem;
     height: 40rem;
+    z-index: 2;
 }
 
 @media (max-width:600px) {
