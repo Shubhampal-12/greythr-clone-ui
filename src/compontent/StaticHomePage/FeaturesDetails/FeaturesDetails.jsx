@@ -1,15 +1,13 @@
-import React from "react";
-import "./Employees.css";
-import "../../App.css";
+import "./FeaturesDetails.css"
 const chro = "http://127.0.0.1:8000/getimages/CHRO";
 const cio = "http://127.0.0.1:8000/getimages/CIO";
 const employees = "http://127.0.0.1:8000/getimages/Employees";
 const mangagers = "http://127.0.0.1:8000/getimages/Managers";
 const payroll = "http://127.0.0.1:8000/getimages/Payroll_Admin";
-import Employ from "../All  Image/Emp-img.jpg";
+import Employ from "../../../Images/Emp-img.jpg"
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const Employees = () => {
+const FeaturesDetails = () => {
   return (
     <div className="main-Emp">
       <h1>
@@ -95,4 +93,4 @@ const Employees = () => {
   );
 };
 
-export default Employees;
+export default FeaturesDetails;

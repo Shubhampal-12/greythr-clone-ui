@@ -1,5 +1,4 @@
-import React from "react";
-import "./System.css";
+import "./EcoSystemDetails.css";
 const greytFM = "http://127.0.0.1:8000/getimages/greytFM_Podcasts";
 const greytHR_Academy = "http://127.0.0.1:8000/getimages/greytHR_Academy";
 const hr_compliances_wiki =
@@ -11,7 +10,7 @@ const greytHR_Resource_Library =
 const hr_Compliances_Wiki =
   "http://127.0.0.1:8000/getimages/HR_Compliances_Wiki";
 
-const System = () => {
+const EcoSystemDetails = () => {
   return (
     <div className="main-system">
       <h2 className="system-tittle">
@@ -120,4 +119,4 @@ const System = () => {
   );
 };
 
-export default System;
+export default EcoSystemDetails;
