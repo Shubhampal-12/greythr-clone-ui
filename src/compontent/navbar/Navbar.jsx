@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import "../../App.css";
-// import image from "./logo.png";
 import { Link } from 'react-router-dom' 
 const imageUrl = 'http://127.0.0.1:8000/getimages/logo'; 
  
@@ -12,10 +11,7 @@ const Navbar = () => {
     <nav className="navbar" >
       <div className="navbar-container">
         <a className="navbar-logo">
-          <img src={image}  alt="" />
- 
            <img src={imageUrl} alt="" />
- 
         </a>
 
         <div className="nav-left">
