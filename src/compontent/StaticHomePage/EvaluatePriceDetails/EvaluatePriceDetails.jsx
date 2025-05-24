@@ -1,10 +1,9 @@
-import React from "react";
-import "./Info.css";
-import "../../App.css";
+import "./EvaluatePriceDetails.css";
+import "../../../App.css";
 const imageUrl = "http://127.0.0.1:8000/getimages/Footer";
-import Button from "../all/Button";
+import CuttomButton from "../CuttomButton/CuttomButton";
 
-const Info = () => {
+const EvaluatePriceDetails = () => {
   return (
     <div className="main-info">
       <div className="info">
@@ -24,8 +23,8 @@ const Info = () => {
               category.
             </span>
             <div className="info-btn">
-              <Button name="Plans and pricing" />
-              <Button name="Discuss pricing" />
+              <CuttomButton name="Plans and pricing" />
+              <CuttomButton name="Discuss pricing" />
             </div>
           </div>
         </div>
@@ -34,4 +33,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default EvaluatePriceDetails;

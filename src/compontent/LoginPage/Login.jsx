@@ -1,7 +1,4 @@
-import React from "react";
-import Navbar from "../navbar/Navbar";
-
-
+import Navbar from "../StaticHomePage/navbar/Navbar";
 const logo = "http://127.0.0.1:8000/getimages/logo";
 
 const Login = () => {
