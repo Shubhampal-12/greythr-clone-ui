@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import "../../App.css";
-import image from "./logo.png";
+// import image from "./logo.png";
 import { Link } from 'react-router-dom' 
 const imageUrl = 'http://127.0.0.1:8000/getimages/logo'; 
  
