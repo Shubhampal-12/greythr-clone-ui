@@ -37,10 +37,10 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 3.5rem;
     margin: auto;
     min-width: 0;
-    margin: 18px 208px 25px 271px;
+    margin: 18px 410px 25px 371px;
     margin-top: 15px;
 }
 .phase2 .Box1{

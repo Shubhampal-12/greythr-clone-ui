@@ -1,0 +1,62 @@
+.main_EmpHome{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: aliceblue;
+ height: 42rem;  
+ width: 100%;
+ margin-top: 1rem;
+ margin-right: 1rem;
+ border-radius: 10px;
+}
+.Nav_Emp{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+ .left_Emp{
+    margin: 20px;
+}
+.left_Emp h1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Right_Emp{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-right: 25px;
+}
+.Right_Emp a{
+    display: flex;
+}
+
+.Hero_Emp{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.Hero_left{
+    margin: 20px;
+}
+.Hero_left h1{
+ font-size: 30px;
+ font-weight: 700;
+}
+.Hero_left p{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.IMG img{
+    display: inline;
+    align-items: center;
+    margin: 20px 90px 20px 70px;
+    
+}

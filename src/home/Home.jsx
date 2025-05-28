@@ -6,6 +6,7 @@ import Employers from '../compontent/employers/Employees'
 import System from '../compontent/System/System'
 import Info from '../compontent/Info/Info'
 import Footer from '../compontent/footer/Footer'
+import Employeehomepage from '../Login_Emp/EmpHomePage/Employeehomepage'
 
 const Home = () => {
   return (
