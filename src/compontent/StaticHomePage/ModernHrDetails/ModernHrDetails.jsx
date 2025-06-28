@@ -1,5 +1,4 @@
-import React from "react";
-import "./Moder.css";
+import "./ModernHrDetails.css";
 import {
   FileSpreadsheet,
   FileClock,
@@ -7,9 +6,9 @@ import {
   CalendarClock,
   Smartphone,
 } from "lucide-react";
-import Button from "../all/Button";
+import CuttomButton from "../CuttomButton/CuttomButton";
 
-const Moder = () => {
+const ModernHrDetails = () => {
   return (
     <div>
       <div className="moder-main">
@@ -119,12 +118,12 @@ const Moder = () => {
         </div>
 
         <div className="phase4">
-          <Button name="Explore HRMS" />
-          <Button name="Explore Payroll" />
+          <CuttomButton name="Explore HRMS" />
+          <CuttomButton name="Explore Payroll" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Moder;
+export default ModernHrDetails;

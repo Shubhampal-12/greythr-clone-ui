@@ -1,14 +1,12 @@
-import React from "react";
 const imageUrl = "http://127.0.0.1:8000/getimages/Countries";
 const user = "http://127.0.0.1:8000/getimages/Users";
 const comp = "http://127.0.0.1:8000/getimages/Companies";
-import "./Hero.css";
-import "../../App.css";
-import "../all/Button";
-import Button from "../all/Button";
+import "./WelcomeDetails.css";
+import "../../../App.css";
+import CuttomButton from "../CuttomButton/CuttomButton";
 import ReactPlayer from "react-player";
 
-const Hero = () => {
+const WelcomeDetails = () => {
   return (
     <>
       <div className="main-hero">
@@ -48,8 +46,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="gap-10 mt-9 inline-flex btn">
-          <Button name="start a greythr Free Account" />
-          <Button name="Talk to Us!" />
+          <CuttomButton name="start a greythr Free Account" />
+          <CuttomButton name="Talk to Us!" />
         </div>
         <div className="hero-bottom">
           <div className="vide">
@@ -67,4 +65,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default WelcomeDetails;
