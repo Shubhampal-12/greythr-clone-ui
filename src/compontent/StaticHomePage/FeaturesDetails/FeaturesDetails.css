@@ -37,7 +37,7 @@
 }
 
 .main-parson{
-     overflow-x: scroll;
+    /* overflow-x: scroll; */
     align-items: center;
     justify-content: center;
     position: relative;
@@ -93,7 +93,7 @@
 .left-Emp{
   display: flex;
   flex-direction: column;
-  flex: 1;
+  margin-left: 12rem;
 }
 .Top-Emp{
   display: flex;
@@ -206,6 +206,10 @@
 @media screen and (max-width:600px) {
   .parson-box{
     width: 50rem;
+  }
+  .main-person{
+    overflow-x: scroll;
+    
   }
   .box-datails{
     display: inline-grid;
