@@ -14,21 +14,21 @@ import {
   SquareArrowOutUpLeftIcon,
   Wifi,
 } from "lucide-react";
-import Login from "../compontent/All  Image/TEBillian_Logo.png";
+// import Login from "../compontent/All  Image/TEBillian_Logo.png";
 
 const Emp_sidebar = () => {
-  const user = JSON.parse(localStorage.getItem("user"));
+  // const user = JSON.parse(localStorage.getItem("user"));
 
   return (
     <div className="sidebar ">
       <div className="logo m-4">
-        <img src={Login} alt="" />
+        {/* <img src={Login} alt="" /> */}
       </div>
       <div className="flex text-center ml-6 gap-2 mt-8 ">
         <CircleUserRound color="gray" size={40} />
         <div className="">
           <h1 className="text-xm font-bold">
-            Hii,<a href=""> {user?.firstName || "Guest"}</a>
+            {/* Hii,<a href=""> {user?.firstName || "Guest"}</a> */}
           </h1>
           <p className="text-sm">View My info</p>
         </div>
