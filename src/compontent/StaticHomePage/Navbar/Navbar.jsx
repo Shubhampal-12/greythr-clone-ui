@@ -1,7 +1,7 @@
 import "./Navbar.css"
 // import "../../App.css";
 // import "../../StaticHomePage/Navbar/App.css"
-import { Link } from 'react-router-dom' 
+import { Link } from 'react-router-dom' ;
 const imageUrl = 'http://127.0.0.1:8000/getimages/logo'; 
  
 

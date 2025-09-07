@@ -10,10 +10,10 @@ import {
   Camera,
 } from "lucide-react";
 import "../EmpHomePage/Employeehomepage.css";
-import Login from "../../compontent/All  Image/Login.png";
-import Img from "../../compontent/All  Image/img.png";
+import Login from "../../compontent/LoginPage/Login";
 import Emp_sidebar from "../Emp_sidebar";
 import { Link } from "react-router-dom";
+// import Img from "../../assets/EmpHomePage/EmpHomePageImg.png";
 
 const Employeehomepage = () => {
   return (
@@ -48,7 +48,7 @@ const Employeehomepage = () => {
         </div>
 
         <div className="IMG">
-          <img src={Img} alt="" />
+          {/* <img src={Img} alt="" /> */}
         </div>
 
         <div className="Emp_Container">

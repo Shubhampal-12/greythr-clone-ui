@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Navbar from "../StaticHomePage/navbar/Navbar";
+// import Navbar from "../StaticHomePage/navbar/Navbar";
 
 const UserHomePage = () => {
     const [userDetails, setUserDetails] = useState(null);
